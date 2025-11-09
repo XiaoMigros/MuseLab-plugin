@@ -15,6 +15,6 @@ StyledButton {
 	}
 	hoverEnabled: true
 	StyledToolTip {
-		text: qsTr("Add a " + parent.text + " to the score that automatically syncs with other users")
+		text: qsTr("Add a %1 to the score that automatically syncs with other users").arg(parent.text)
 	}
 }

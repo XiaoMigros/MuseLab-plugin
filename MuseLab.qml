@@ -910,7 +910,7 @@ MuseScore {
 					
 					StyledLabel {
 						anchors.horizontalCenter: parent.horizontalCenter
-						text: qsTr("Update available! MuseLab v" + nVersion)
+						text: qsTr("Update available! MuseLab v%1").arg(nVersion)
 						font.pointSize: fontSizes.title
 						width: Math.min((3/4) * parent.width, implicitWidth)
 						wrapMode: Text.WordWrap
@@ -1493,7 +1493,7 @@ MuseScore {
 					
 					StyledLabel {
 						anchors.horizontalCenter: parent.horizontalCenter
-						text: qsTr("Hello") + " " + root.userName
+						text: qsTr("Hello %1").arg(root.userName)
 						font.pointSize: fontSizes.heading
 					}
 					GridLayout {
@@ -1803,7 +1803,7 @@ MuseScore {
 										centerIn: parent
 										horizontalCenterOffset: - Math.max(0, (width - parent.width) / 2 + projectMButton.width + (2 * projectMButton.anchors.margins))
 									}
-									text: qsTr("Manage Project") + " '" + projectItem.projectMTitle + "'"
+									text: qsTr("Manage Project '%1'").arg(projectItem.projectMTitle)
 									font.pointSize: fontSizes.title
 									property var maximumWidth: parent.width - projectMButton.width - (3 * projectMButton.anchors.margins)
 									width: Math.min(maximumWidth, implicitWidth)
@@ -2086,8 +2086,7 @@ MuseScore {
 											
 											hoverEnabled: true
 											StyledToolTip {
-												text: qsTr("Sort files by creation date, in") + " "
-												+ (parent.checked ? qsTr("ascending") : qsTr("descending")) + " " + qsTr("order")
+												text: qsTr("Sort files by creation date, in %1 order").arg(parent.checked ? qsTr("ascending") : qsTr("descending"))
 											}
 										}
 									}
@@ -2253,7 +2252,7 @@ MuseScore {
 										FileDialog {
 											property var path: ""
 											id: addFileDialog
-											title: qsTr("Upload file to") + " " + projectItem.projectMTitle
+											title: qsTr("Upload file to %1").arg(projectItem.projectMTitle)
 											selectExisting:	true
 											selectFolder:	false
 											selectMultiple:	false
@@ -2599,7 +2598,7 @@ MuseScore {
 								
 								StyledLabel {
 									anchors.centerIn: parent
-									text: (qsTr("Chat with") + " " + root.currentProjectName)
+									text: qsTr("Chat with %1").arg(root.currentProjectName)
 									font.pointSize: fontSizes.subheading
 									width: Math.min(parent.width - (2 * sizes.maxSpacing), implicitWidth)
 									wrapMode: Text.WordWrap
@@ -2949,7 +2948,7 @@ MuseScore {
 										FileDialog {
 											property var path: ""
 											id: cppAddFiles
-											title: qsTr("Upload file to") + " " + root.currentProjectName
+											title: qsTr("Upload file to %1").arg(root.currentProjectName)
 											selectExisting:	true
 											selectFolder:	false
 											selectMultiple:	false
@@ -3351,8 +3350,8 @@ MuseScore {
 									"Additionally, MuseLab hosts a copy of each saved score, so you can retrieve older versions of a project if needed." + "\n" +
 									"In the Project Manager you can see an overview of all files and users in your project, and can make any wanted changes." + "\n" +
 									"The website (muselab.app) has similiar capabilities."),
-									qsTr("MuseScore 4 Compatibility"),
-									qsTr("MuseLab does not yet work with MuseScore 4, as its plugin API is missing some features essential for MuseLab to function." + "\n" + 
+									qsTr("MuseScore Studio 4 Compatibility"),
+									qsTr("MuseLab does not yet work with MuseScore Studio 4, as its plugin API is missing some features essential for MuseLab to function." + "\n" + 
 									"Support is planned as soon as is possible!")
 								]
 								StyledLabel {
@@ -3413,7 +3412,7 @@ MuseScore {
 		
 		onClosing: {
 			if (root.currentSession != "") logOut()
-			debugLog(qsTr("Closing Muselab..."), 3)
+			debugLog(qsTr("Closing MuseLab..."), 3)
 			smartQuit()
 		}
 		
@@ -3444,7 +3443,7 @@ MuseScore {
 		}
 		StyledDialog {
 			id: addUserDialog
-			title: qsTr("Add Users to ") + currentProjectName
+			title: qsTr("Add Users to %1").arg(currentProjectName)
 			buttons: [qsTr("Close")]
 			function actions(index) {
 				addUserDialog.rejected()
@@ -3534,8 +3533,7 @@ MuseScore {
 	MessageDialog {
 		id: savePromptDialog
 		title: qsTr("MuseLab")
-		text: qsTr("Save changes to") + " " + root.currentProjectName + " " + qsTr("before closing?") + "\n" +
-			qsTr("Your changes are not yet backed up online.")
+		text: qsTr("Save changes to %1 before closing?\nYour changes are not yet backed up online.").arg(root.currentProjectName)
 		modality: Qt.ApplicationModal
 		icon: StandardIcon.Warning
 		standardButtons: StandardButton.Save | StandardButton.Discard
@@ -3548,8 +3546,7 @@ MuseScore {
 		id: connectionErrorDialog
 		title:			qsTr("Connection Error")
 		text:			qsTr("Unable to check for the latest plugin version.")
-		detailedText:	(qsTr("Please make sure you are connected to the internet.") + "\n" +
-						qsTr("If this error persists, contact the server host."))
+		detailedText:	qsTr("Please make sure you are connected to the internet.\nIf this error persists, contact the server host.")
 		modality: Qt.ApplicationModal
 		icon: StandardIcon.Warning
 		standardButtons: StandardButton.Ok
@@ -3571,8 +3568,8 @@ MuseScore {
 		modality: Qt.ApplicationModal
 		icon: StandardIcon.Warning
 		standardButtons: StandardButton.Ok
-		text: qsTr("MuseLab is not yet compatible with MuseScore 4")
-		detailedText: qsTr("MuseScore 4's Plugin API is missing some features essential for MuseLab to function." +  
+		text: qsTr("MuseLab is not yet compatible with MuseScore Studio 4")
+		detailedText: qsTr("MuseScore Studio 4's Plugin API is missing some features essential for MuseLab to function. " +
 			"Support is planned as soon as is possible.")
 		onAccepted: smartQuit()
 	}

@@ -19,7 +19,7 @@
     <message>
         <location filename="../MuseLab.qml" line="36"/>
         <location filename="../MuseLab.qml" line="738"/>
-        <location filename="../MuseLab.qml" line="2575"/>
+        <location filename="../MuseLab.qml" line="2574"/>
         <source>Loading Score, please wait...</source>
         <translation>Lade Partitur, bitte warten...</translation>
     </message>
@@ -80,9 +80,14 @@
         <translation>Abmelden...</translation>
     </message>
     <message>
+        <location filename="../MuseLab.qml" line="927"/>
+        <source>Update available! MuseLab v%1</source>
+        <translation>Aktualisierung verfügbar! MuseLab v%1</translation>
+    </message>
+    <message>
         <location filename="../MuseLab.qml" line="935"/>
         <source>A new version of MuseLab is available! Please update to the latest version to continue using MuseLab.</source>
-        <translation>Eine neue Version von MuseLab ist verfügbar! Bitte auf die neueste Version updaten, um MuseLab weiter zu verwenden.</translation>
+        <translation>Eine neue Version von MuseLab ist verfügbar! Bitte auf die neueste Version aktualisieren, um MuseLab weiter zu verwenden.</translation>
     </message>
     <message>
         <location filename="../MuseLab.qml" line="945"/>
@@ -126,13 +131,13 @@
     </message>
     <message>
         <location filename="../MuseLab.qml" line="1077"/>
-        <location filename="../MuseLab.qml" line="3042"/>
+        <location filename="../MuseLab.qml" line="3041"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
         <location filename="../MuseLab.qml" line="1084"/>
-        <location filename="../MuseLab.qml" line="3403"/>
+        <location filename="../MuseLab.qml" line="3402"/>
         <source>Credits</source>
         <translation>Mitwirkende</translation>
     </message>
@@ -253,8 +258,74 @@
     </message>
     <message>
         <location filename="../MuseLab.qml" line="1510"/>
-        <source>Hello</source>
-        <translation>Hallo</translation>
+        <source>Hello %1</source>
+        <translation>Hallo %1</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="1820"/>
+        <source>Manage Project &apos;%1&apos;</source>
+        <translation>Projekt &apos;%1&apos; managen</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="2103"/>
+        <source>Sort files by creation date, in %1 order</source>
+        <translation>Dateien nach Erstellungsdatum sortieren, in %1 Reihenfolge</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="2269"/>
+        <location filename="../MuseLab.qml" line="2965"/>
+        <source>Upload file to %1</source>
+        <translation>Datei zu %1 hochladen</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="2615"/>
+        <source>Chat with %1</source>
+        <translation>Unterhaltung über %1</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="3367"/>
+        <source>MuseScore Studio 4 Compatibility</source>
+        <translation>MuseScore Studio 4 Kompatibilität</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="3368"/>
+        <source>MuseLab does not yet work with MuseScore Studio 4, as its plugin API is missing some features essential for MuseLab to function.
+Support is planned as soon as is possible!</source>
+        <translation>MuseLab arbeitet derzeit noch nicht mit MuseScore Studio 4&apos; da in dessen Plug-In API einige wichtige Features fehlen, die notwendig sind, um mit MuseLab zu funktionieren. Unterstützung ist für sobald als möglich geplant!</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="3429"/>
+        <source>Closing MuseLab...</source>
+        <translation>MuseLab schließen...</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="3460"/>
+        <source>Add Users to %1</source>
+        <translation>Benutzer zu %1 hinzufügen</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="3550"/>
+        <source>Save changes to %1 before closing?
+Your changes are not yet backed up online.</source>
+        <translation>Änderungen an %1 vor dem Schloen abspeichern?
+Ihre Änderungen sind nocht nicht online gesichert.</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="3563"/>
+        <source>Please make sure you are connected to the internet.
+If this error persists, contact the server host.</source>
+        <translation>Bitte stellen Sie sicher, dass Sie mit dem Internet verbunden sind.
+Wenn dieser Fehler bestehen bleibt, kontaktieren Sie den Betreiber des hHosts.</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="3585"/>
+        <source>MuseLab is not yet compatible with MuseScore Studio 4</source>
+        <translation>MuseLab ist derzeit noch nicht mit MuseScore Studio 4 kompatibel</translation>
+    </message>
+    <message>
+        <location filename="../MuseLab.qml" line="3586"/>
+        <source>MuseScore Studio 4&apos;s Plugin API is missing some features essential for MuseLab to function. Support is planned as soon as is possible.</source>
+        <translation>MuseScore Studio 4&apos;s Plug-In API fehlen einige wichtige Features, die notwendig sind, um mit MuseLab zu funktionieren. Unterstützung ist für sobald als möglich geplant.</translation>
     </message>
     <message>
         <location filename="../MuseLab.qml" line="1529"/>
@@ -287,11 +358,6 @@
         <translation>Um ein neues Projekt zu erstellen, auf den &apos;Neues Projekt&apos;-Knopf klicken.</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="1820"/>
-        <source>Manage Project</source>
-        <translation>Projekt managen</translation>
-    </message>
-    <message>
         <location filename="../MuseLab.qml" line="1839"/>
         <source>Open Project</source>
         <translation>Projekt öffnen</translation>
@@ -318,7 +384,7 @@
     </message>
     <message>
         <location filename="../MuseLab.qml" line="1940"/>
-        <location filename="../MuseLab.qml" line="2728"/>
+        <location filename="../MuseLab.qml" line="2727"/>
         <source>Users</source>
         <translation>Benutzer</translation>
     </message>
@@ -339,8 +405,8 @@
     </message>
     <message>
         <location filename="../MuseLab.qml" line="2034"/>
-        <location filename="../MuseLab.qml" line="3287"/>
-        <location filename="../MuseLab.qml" line="3523"/>
+        <location filename="../MuseLab.qml" line="3286"/>
+        <location filename="../MuseLab.qml" line="3522"/>
         <source>Add</source>
         <translation>Hinzufügen</translation>
     </message>
@@ -356,313 +422,292 @@
     </message>
     <message>
         <location filename="../MuseLab.qml" line="2103"/>
-        <source>Sort files by creation date, in</source>
-        <translation>Dateien nach Erstellungsdatum sortieren, in</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="2104"/>
         <source>ascending</source>
         <translation>aufsteigender</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2104"/>
+        <location filename="../MuseLab.qml" line="2103"/>
         <source>descending</source>
         <translation>absteigender</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2104"/>
-        <source>order</source>
-        <translation>Reihenfolge</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="2163"/>
-        <location filename="../MuseLab.qml" line="2170"/>
-        <location filename="../MuseLab.qml" line="2882"/>
-        <location filename="../MuseLab.qml" line="2889"/>
+        <location filename="../MuseLab.qml" line="2162"/>
+        <location filename="../MuseLab.qml" line="2169"/>
+        <location filename="../MuseLab.qml" line="2881"/>
+        <location filename="../MuseLab.qml" line="2888"/>
         <source>Open File</source>
         <translation>Datei öffnen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2166"/>
-        <location filename="../MuseLab.qml" line="2885"/>
+        <location filename="../MuseLab.qml" line="2165"/>
+        <location filename="../MuseLab.qml" line="2884"/>
         <source>Delete File</source>
         <translation>Datei löschen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2234"/>
-        <location filename="../MuseLab.qml" line="2926"/>
+        <location filename="../MuseLab.qml" line="2233"/>
+        <location filename="../MuseLab.qml" line="2925"/>
         <source>Removing file...</source>
         <translation>Datei entfernen...</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2242"/>
-        <location filename="../MuseLab.qml" line="2934"/>
+        <location filename="../MuseLab.qml" line="2241"/>
+        <location filename="../MuseLab.qml" line="2933"/>
         <source>Removed file!</source>
         <translation>Datei entfernt!</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2244"/>
-        <location filename="../MuseLab.qml" line="2936"/>
+        <location filename="../MuseLab.qml" line="2243"/>
+        <location filename="../MuseLab.qml" line="2935"/>
         <source>Unable to remove file</source>
         <translation>Kann Datei nicht entfernen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2255"/>
+        <location filename="../MuseLab.qml" line="2254"/>
         <source>Upload a new file</source>
         <translation>Neue Datei hochladen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2270"/>
-        <location filename="../MuseLab.qml" line="2966"/>
-        <source>Upload file to</source>
-        <translation>Datei hochladen zu</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="2275"/>
-        <location filename="../MuseLab.qml" line="2971"/>
+        <location filename="../MuseLab.qml" line="2274"/>
+        <location filename="../MuseLab.qml" line="2970"/>
         <source>Uncompressed MuseScore File (*.mscx)</source>
         <translation>Unkomprimierte MuseScore Datei (*.mscx)</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2365"/>
+        <location filename="../MuseLab.qml" line="2364"/>
         <source>Project found!</source>
         <translation>Projekt gefunden!</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2371"/>
+        <location filename="../MuseLab.qml" line="2370"/>
         <source>Unable to find project</source>
         <translation>Kann Projekt nicht finden</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2375"/>
+        <location filename="../MuseLab.qml" line="2374"/>
         <source>Search...</source>
         <translation>Suche...</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2411"/>
+        <location filename="../MuseLab.qml" line="2410"/>
         <source>New Project</source>
         <translation>Neues Projekt</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2425"/>
+        <location filename="../MuseLab.qml" line="2424"/>
         <source>Create New Project</source>
         <translation>Neues Project erstellen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2437"/>
+        <location filename="../MuseLab.qml" line="2436"/>
         <source>Enter project title</source>
         <translation>Projekttitel eingeben</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2444"/>
+        <location filename="../MuseLab.qml" line="2443"/>
         <source>Creating project...</source>
         <translation>Projekt erstellen...</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2453"/>
+        <location filename="../MuseLab.qml" line="2452"/>
         <source>Project created!</source>
         <translation>Projekt erstellt!</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2466"/>
+        <location filename="../MuseLab.qml" line="2465"/>
         <source>Unable to create project</source>
         <translation>Kann Projekt nicht erstellen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2485"/>
-        <location filename="../MuseLab.qml" line="3238"/>
+        <location filename="../MuseLab.qml" line="2484"/>
+        <location filename="../MuseLab.qml" line="3237"/>
         <source>Save</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2485"/>
-        <location filename="../MuseLab.qml" line="3266"/>
-        <location filename="../MuseLab.qml" line="3440"/>
+        <location filename="../MuseLab.qml" line="2484"/>
+        <location filename="../MuseLab.qml" line="3265"/>
+        <location filename="../MuseLab.qml" line="3439"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2493"/>
+        <location filename="../MuseLab.qml" line="2492"/>
         <source>Project Properties</source>
         <translation>Projekteigenschaften</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2502"/>
-        <location filename="../MuseLab.qml" line="3070"/>
+        <location filename="../MuseLab.qml" line="2501"/>
+        <location filename="../MuseLab.qml" line="3069"/>
         <source>Title:</source>
         <translation>Titel:</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2506"/>
-        <location filename="../MuseLab.qml" line="3074"/>
+        <location filename="../MuseLab.qml" line="2505"/>
+        <location filename="../MuseLab.qml" line="3073"/>
         <source>Ensemble:</source>
         <translation>Ensemble:</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2510"/>
-        <location filename="../MuseLab.qml" line="3078"/>
+        <location filename="../MuseLab.qml" line="2509"/>
+        <location filename="../MuseLab.qml" line="3077"/>
         <source>Genre:</source>
         <translation>Genre:</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2514"/>
-        <location filename="../MuseLab.qml" line="3082"/>
+        <location filename="../MuseLab.qml" line="2513"/>
+        <location filename="../MuseLab.qml" line="3081"/>
         <source>Created at:</source>
         <translation>Erstellt am:</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2518"/>
-        <location filename="../MuseLab.qml" line="3086"/>
+        <location filename="../MuseLab.qml" line="2517"/>
+        <location filename="../MuseLab.qml" line="3085"/>
         <source>Created by:</source>
         <translation>Erstellt von:</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2555"/>
+        <location filename="../MuseLab.qml" line="2554"/>
         <source>Unable to edit project</source>
         <translation>Kann Projekt nicht bearbeiten</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2572"/>
+        <location filename="../MuseLab.qml" line="2571"/>
         <source>Loading files...</source>
         <translation>Dateien laden...</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2616"/>
-        <source>Chat with</source>
-        <translation>Unterhalten über</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="2728"/>
+        <location filename="../MuseLab.qml" line="2727"/>
         <source>Files</source>
         <translation>Dateien</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2728"/>
+        <location filename="../MuseLab.qml" line="2727"/>
         <source>Info</source>
         <translation>Info</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2763"/>
+        <location filename="../MuseLab.qml" line="2762"/>
         <source>Users Online</source>
         <translation>Benutzer Online</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2813"/>
+        <location filename="../MuseLab.qml" line="2812"/>
         <source>Invite Users...</source>
         <translation>Benutzer einladen...</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2837"/>
+        <location filename="../MuseLab.qml" line="2836"/>
         <source>Project Files</source>
         <translation>Projektdateien</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="2954"/>
+        <location filename="../MuseLab.qml" line="2953"/>
         <source>Upload File</source>
         <translation>Datei hochladen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3100"/>
+        <location filename="../MuseLab.qml" line="3099"/>
         <source>Update Project</source>
         <translation>Projekt updaten</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3172"/>
+        <location filename="../MuseLab.qml" line="3171"/>
         <source>Score Tools</source>
         <translation>Partiturwerkzeuge</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3181"/>
+        <location filename="../MuseLab.qml" line="3180"/>
         <source>Measures</source>
         <translation>Takte</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3189"/>
+        <location filename="../MuseLab.qml" line="3188"/>
         <source>Crescendo</source>
         <translation>Crescendo</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3190"/>
+        <location filename="../MuseLab.qml" line="3189"/>
         <source>Decrescendo</source>
         <translation>Decrescendo</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3191"/>
+        <location filename="../MuseLab.qml" line="3190"/>
         <source>Slur</source>
         <translation>Bindebogen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3192"/>
+        <location filename="../MuseLab.qml" line="3191"/>
         <source>8va</source>
         <translation>8va</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3193"/>
+        <location filename="../MuseLab.qml" line="3192"/>
         <source>8vb</source>
         <translation>8vb</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3214"/>
+        <location filename="../MuseLab.qml" line="3213"/>
         <source>Project Tools</source>
         <translation>Projektwerkzeuge</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3223"/>
+        <location filename="../MuseLab.qml" line="3222"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3232"/>
+        <location filename="../MuseLab.qml" line="3231"/>
         <source>Resync</source>
         <translation>Neu synchronisieren</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3244"/>
+        <location filename="../MuseLab.qml" line="3243"/>
         <source>Send Feedback</source>
         <translation>Rückmeldung senden</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3250"/>
+        <location filename="../MuseLab.qml" line="3249"/>
         <source>Quit</source>
         <translation>Beenden</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3266"/>
+        <location filename="../MuseLab.qml" line="3265"/>
         <source>Append Measures</source>
         <translation>Takte anhängen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3266"/>
+        <location filename="../MuseLab.qml" line="3265"/>
         <source>Insert Measures</source>
         <translation>Takte einfügen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3297"/>
+        <location filename="../MuseLab.qml" line="3296"/>
         <source>measures</source>
         <translation>Takte</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3314"/>
+        <location filename="../MuseLab.qml" line="3313"/>
         <source>Whats New</source>
         <translation>Neuigkeiten</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3352"/>
+        <location filename="../MuseLab.qml" line="3351"/>
         <source>About MuseLab</source>
         <translation>Über MuseLab</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3353"/>
+        <location filename="../MuseLab.qml" line="3352"/>
         <source>Welcome to MuseLab! MuseLab is a free extension for MuseScore 3 that lets users collaborate in real time.</source>
         <translation>Willkommen zu MuseLab! MuseLab ist a freie Erweiterung für MuseScore 3, die Benutzern erlaubt in Echtszeit zusammenzuarbeiten.</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3354"/>
+        <location filename="../MuseLab.qml" line="3353"/>
         <source>Users &amp; projects</source>
         <translation>Benutzer &amp; Projekte</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3355"/>
+        <location filename="../MuseLab.qml" line="3354"/>
         <source>To get started, you&apos;ll first need to create a new project. This will create a blank score, and you can already start writing!
 It might get lonely, so you can invite other users using the &apos;Invite Users&apos; button. From there, you can either invite someone as a guest using a one-time invite code, or add them to the project permanently.
 You can remove users from a project via the Project Manager.</source>
@@ -671,12 +716,12 @@ Das könnte etwas einsam werden, also können Sie andere Bentzer mittels des &ap
 Sie können Benutzer über den Projektmanager von einem Projekt entfernen.</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3358"/>
+        <location filename="../MuseLab.qml" line="3357"/>
         <source>Writing a score</source>
         <translation>Eine Partitur schreiben</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3359"/>
+        <location filename="../MuseLab.qml" line="3358"/>
         <source>MuseLab will automatically add and remove notes, rests, dynamics, ties, text, tuplets, and articulations.
 Some objects, such as hairpins or slurs, can be added via the Toolbar instead of the palette.
 For other changes, you can press the &apos;Resync&apos; button, and your version of the score will be sent to all other users.
@@ -687,12 +732,12 @@ Für weitere Änderungen können Sie den &apos;Neu synchronisieren&apos; Knopf d
 Wenn Sie meinen einige Änderungen zu vermissen, drücken Sie den &apos; Neu laden&apos; Knopf.</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3363"/>
+        <location filename="../MuseLab.qml" line="3362"/>
         <source>Saving &amp; Managing projects</source>
         <translation>Speichern &amp; managen von Projekten</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3364"/>
+        <location filename="../MuseLab.qml" line="3363"/>
         <source>MuseLab does not automatically save your work. Instead, you can press the &apos;Save&apos; button. If you have unsaved changes, you will be prompted to save them when closing a project.
 Additionally, MuseLab hosts a copy of each saved score, so you can retrieve older versions of a project if needed.
 In the Project Manager you can see an overview of all files and users in your project, and can make any wanted changes.
@@ -703,176 +748,124 @@ Im Projektmanager erhalten Sie eine Übersicht über alle Dateien und Benutzer I
 Die Website (muselab.app) bietet ähnliche Funktionen.</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3368"/>
-        <source>MuseScore 4 Compatibility</source>
-        <translation>MuseScore Studio 4 Kompatibilität</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3369"/>
-        <source>MuseLab does not yet work with MuseScore 4, as its plugin API is missing some features essential for MuseLab to function.
-Support is planned as soon as is possible!</source>
-        <translation>MuseLab funktioniert derzeit nicht mit MuseScore Stidio 4. da dessen Plugi-IN API einige notwendige Features fehlen, um mit MuseLab zu funktionieren.
-Unterstützung ist sobald wie möglich geplant!</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3409"/>
+        <location filename="../MuseLab.qml" line="3408"/>
         <source>Concept, server &amp; installers</source>
         <translation>Konzept, Server &amp; Installers</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3410"/>
+        <location filename="../MuseLab.qml" line="3409"/>
         <source>Plugin design &amp; MuseScore integration</source>
         <translation>Plug-In Design &amp; MuseScore Integration</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3411"/>
+        <location filename="../MuseLab.qml" line="3410"/>
         <source>Website design</source>
         <translation>Website Design</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3430"/>
-        <source>Closing Muselab...</source>
-        <translation>MuseLab schließen...</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3438"/>
-        <location filename="../MuseLab.qml" line="3440"/>
+        <location filename="../MuseLab.qml" line="3437"/>
+        <location filename="../MuseLab.qml" line="3439"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
         <location filename="../MuseLab.qml" line="3461"/>
-        <source>Add Users to </source>
-        <translation>Benutzer hinzufgen zu </translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3462"/>
         <source>Close</source>
         <translation>Schließen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3479"/>
+        <location filename="../MuseLab.qml" line="3478"/>
         <source>One-time invite code</source>
         <translation>Eimal-Einladungs-Kode</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3488"/>
+        <location filename="../MuseLab.qml" line="3487"/>
         <source>Loading...</source>
         <translation>Laden...</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3494"/>
+        <location filename="../MuseLab.qml" line="3493"/>
         <source>Copy</source>
         <translation>Kopieren</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3503"/>
+        <location filename="../MuseLab.qml" line="3502"/>
         <source>Generate new...</source>
         <translation>Neu erzeugen...</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3509"/>
+        <location filename="../MuseLab.qml" line="3508"/>
         <source>Permanently add user</source>
         <translation>Benutzer dauerhaft hinzufügen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3517"/>
+        <location filename="../MuseLab.qml" line="3516"/>
         <source>Username</source>
         <translation>Benutzername</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3540"/>
+        <location filename="../MuseLab.qml" line="3539"/>
         <source>Adding User...</source>
         <translation>Benutzer hinzufügen...</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3550"/>
+        <location filename="../MuseLab.qml" line="3549"/>
         <source>MuseLab</source>
         <translation>MuseLab</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3551"/>
-        <source>Save changes to</source>
-        <translation>Änderungen speichern in</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3551"/>
-        <source>before closing?</source>
-        <translation>vor dem Schließen?</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3552"/>
-        <source>Your changes are not yet backed up online.</source>
-        <translation>Ihre Änderungen sind noch nicht online gesichert.</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3563"/>
+        <location filename="../MuseLab.qml" line="3561"/>
         <source>Connection Error</source>
         <translation>Verbindungsfehler</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3564"/>
+        <location filename="../MuseLab.qml" line="3562"/>
         <source>Unable to check for the latest plugin version.</source>
         <translation>Kann nicht auf neueste Plug-In Version prüfen.</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3565"/>
-        <source>Please make sure you are connected to the internet.</source>
-        <translation>Bitte stellen Sie sicher, dass sie mit dem Internet verbunden sind.</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3566"/>
-        <source>If this error persists, contact the server host.</source>
-        <translation>Wenn dieser Fehler bestehen bleibt, kontaktieren Sie den Betreiber des Hosts.</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3574"/>
-        <location filename="../MuseLab.qml" line="3584"/>
+        <location filename="../MuseLab.qml" line="3571"/>
+        <location filename="../MuseLab.qml" line="3581"/>
         <source>Unsupported MuseScore version</source>
         <translation>Nicht unterstützte MuseScore Version</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3578"/>
+        <location filename="../MuseLab.qml" line="3575"/>
         <source>Please update to MuseScore 3.6 to use MuseLab</source>
         <translation>Bitte zu MuseScore 3.6 updated, um MuseLab zu benutzen</translation>
     </message>
     <message>
-        <location filename="../MuseLab.qml" line="3579"/>
+        <location filename="../MuseLab.qml" line="3576"/>
         <source>For collaboration to work it is imperative that all users are running the same version of MuseScore.</source>
         <translation>Damit Zusammenarbeit funktioniert ist es unabdingbar, dass alle Benutzer mit der gleichen Version von MuseScore arbeiten.</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3588"/>
-        <source>MuseLab is not yet compatible with MuseScore 4</source>
-        <translation>MuseLab ist derzeit nicht Kompatibel mit MuseScore Studio 4</translation>
-    </message>
-    <message>
-        <location filename="../MuseLab.qml" line="3589"/>
-        <source>MuseScore 4&apos;s Plugin API is missing some features essential for MuseLab to function.Support is planned as soon as is possible.</source>
-        <translation>MuseScore Studio 4&apos;s Plugi-IN API fehlen einige notwendige Features um mit MuseLab zu funktionieren. Unterstützung ist sobald wie möglich geplant.</translation>
     </message>
 </context>
 <context>
     <name>MuseScoreIntegration</name>
     <message>
+        <location filename="../tools/MuseScoreIntegration.js" line="102"/>
+        <source>%1 has joined project %2</source>
+        <translation>%1 ist dem Projekt %2 beigetreten</translation>
+    </message>
+    <message>
         <location filename="../tools/MuseScoreIntegration.js" line="775"/>
         <source>Calculating grace note duration...</source>
-        <translation>Berechne Länge der Vor-/Nachschlagsnoten...</translation>
+        <translation>Dauer von Vor-/Nachschlagsnoten berechnen...</translation>
     </message>
     <message>
         <location filename="../tools/MuseScoreIntegration.js" line="781"/>
         <source>Removing dots...</source>
-        <translation>Entferne Punkte...</translation>
+        <translation>Punkte entfernen...</translation>
     </message>
     <message>
         <location filename="../tools/MuseScoreIntegration.js" line="796"/>
         <source>No dots detected</source>
-        <translation>Keine Punkte gefunden</translation>
+        <translation>Keine Punkte entdeckt</translation>
     </message>
     <message>
         <location filename="../tools/MuseScoreIntegration.js" line="798"/>
         <source>Calculating base duration...</source>
-        <translation>Berechne Basislänge...</translation>
+        <translation>Basisdauer berechnen...</translation>
     </message>
     <message>
         <location filename="../tools/MuseScoreIntegration.js" line="812"/>
@@ -896,6 +889,14 @@ Unterstützung ist sobald wie möglich geplant!</translation>
         <location filename="../assets/StyledDialog.qml" line="63"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
+    </message>
+</context>
+<context>
+    <name>ToolbarButton</name>
+    <message>
+        <location filename="../assets/ToolbarButton.qml" line="18"/>
+        <source>Add a %1 to the score that automatically syncs with other users</source>
+        <translation>Ein %1 zur Partitur hinzufügen, das dann automatisch mit allen anderen Benutzern synchronisiert</translation>
     </message>
 </context>
 </TS>

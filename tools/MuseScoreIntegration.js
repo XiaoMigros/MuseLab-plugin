@@ -116,7 +116,7 @@ function handleSync(score) {
 		if (root.inited) debugLog("Reloading score...", 2)
 		else {
 			debugLog("Opening score", 2)
-			logMessage(root.userName + " has joined project " + root.currentProjectName)
+			logMessage(qsTr("%1 has joined project %2").arg(root.userName, root.currentProjectName))
 		}
 		var resp = root.loadOlderFile ? root.loadOlderFile : LZString.LZString.decompressFromBase64(score)
 		if (resp.length < 1) return debugLog("No data, aborting...", 2)
